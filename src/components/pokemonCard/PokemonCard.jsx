@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import {useState, useEffect} from "react"
 import "./pokemonCard.css";
+import PokemonInfo from "../pokemonInfo/PokemonInfo";
 
 export default function PokemonCard({ pokemonName }) {
   const [pokemon, setPokemon] = useState({ id: 0, image: "", type: "" });
@@ -38,6 +39,7 @@ export default function PokemonCard({ pokemonName }) {
         to={`/${pokemon.id}`}
         className={`card-front ${pokemon.type}`}
       >
+        {"#" + pokemon.id}
         <img src={pokemon.image} alt="Pokemon" />
         {pokemonName}
       </Link>

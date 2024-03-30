@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
 .card {
     width: 21%;
     min-width: 200px;
@@ -33,6 +35,11 @@
     text-decoration:none;
     color: rgb(0, 0, 0);
     transition: transform 0.5s;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0 0 1.5rem 0;
+    color: #220e37;
+    font-size: 1.2rem;
   }
  
  
