@@ -1,5 +1,6 @@
 {
   "name": "pokudex",
+  "homepage": "https://michalsliwase.github.io/pokudex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
