@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokudex/static/css/main.1558a459.css",
+    "main.js": "/pokudex/static/js/main.b5bc13ba.js",
+    "index.html": "/pokudex/index.html",
+    "main.1558a459.css.map": "/pokudex/static/css/main.1558a459.css.map",
+    "main.b5bc13ba.js.map": "/pokudex/static/js/main.b5bc13ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1558a459.css",
+    "static/js/main.b5bc13ba.js"
+  ]
+}
