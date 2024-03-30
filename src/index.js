@@ -8,6 +8,7 @@ import "./index.css";
 
 import {About, App} from "./routes"
 import { Pokemons } from "./routes"
+import {PokemonSingle} from "./routes"
 
 
 const router = createHashRouter([
@@ -19,10 +20,10 @@ const router = createHashRouter([
         path: "/",
         element: <Pokemons />,
       },
-      // {
-      //   path: "/:name",
-      //   element: <PokemonSingle />,
-      // },
+      {
+        path: "/:name",
+        element: <PokemonSingle />,
+      },
       {
         path: "/about",
         element: <About />,
