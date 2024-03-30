@@ -5,8 +5,14 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
-      <Outlet />
+      <main>
+        <h2>
+          <Navbar />
+        </h2>
+        <section id="core-concepts">
+          <Outlet />
+        </section>
+      </main>
     </>
   );
 }

@@ -1,0 +1,97 @@
+.card {
+    width: 21%;
+    min-width: 200px;
+    aspect-ratio: 3/4;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+    transition: transform 0.5s;
+  }
+
+ 
+  
+  .card:hover {
+    transform: scale(1.1); /* Adjust the scale factor as desired */
+}
+
+  
+  .card-front {
+    border-radius: 20px;
+    border: var(--box-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    transition: transform 0.5s;
+  }
+ 
+ 
+/* Bug Type */
+.bug {
+    background: linear-gradient(45deg, #A8B820, #D4E157); /* Bug type gradient */
+}
+
+/* Fire Type */
+.fire {
+    background: linear-gradient(45deg, #FFA07A, #FFD700); /* Fire type gradient */
+}
+
+/* Grass Type */
+.grass {
+    background: linear-gradient(45deg, #78C850, #4CAF50); /* Grass type gradient */
+}
+
+/* Normal Type */
+.normal {
+    background: linear-gradient(45deg, #A8A878, #D3D3D3); /* Normal type gradient */
+}
+
+/* Poison Type */
+.poison {
+    background: linear-gradient(45deg, #A040A0, #BA55D3); /* Poison type gradient */
+}
+
+/* Water Type */
+.water {
+    background: linear-gradient(45deg, #6890F0, #64B5F6); /* Water type gradient */
+}
+
+/* Fighting Type */
+.fighting {
+    background: linear-gradient(45deg, #C03028, #8A1A12); /* Fighting type gradient */
+}
+
+/* Rock Type */
+.rock {
+    background: linear-gradient(45deg, #B8A038, #786824); /* Rock type gradient */
+}
+
+/* Ground Type */
+.ground {
+    background: linear-gradient(45deg, #E0C068, #957D46); /* Ground type gradient */
+}
+
+/* Psychic Type */
+.psychic {
+    background: linear-gradient(45deg, #F85888, #A80756); /* Psychic type gradient */
+}
+
+/* Flying Type */
+.flying {
+    background: linear-gradient(45deg, #A890F0, #615FC7); /* Flying type gradient */
+}
+
+/* Electric Type */
+.electric {
+    background: linear-gradient(45deg, #F0E68C, #FFD700); /* Electric type gradient */
+}

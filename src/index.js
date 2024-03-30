@@ -6,7 +6,8 @@ import {
 } from "react-router-dom";
 import "./index.css";
 
-import {Pokemons, PokemonSingle, About, App} from "./routes"
+import {About, App} from "./routes"
+import { Pokemons } from "./routes"
 
 
 const router = createHashRouter([
@@ -14,10 +15,10 @@ const router = createHashRouter([
     path: "/",
     element: <App />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <Pokemons />,
-      // },
+      {
+        path: "/",
+        element: <Pokemons />,
+      },
       // {
       //   path: "/:name",
       //   element: <PokemonSingle />,
